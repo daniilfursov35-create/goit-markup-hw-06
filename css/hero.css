@@ -1,0 +1,96 @@
+
+.hero-section {
+  padding: 72px 0;
+  background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/hero-mob-1x.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  max-width: 216px;
+  margin: 0 auto 72px auto;
+}
+
+.hero-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+
+@media (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-mob-2x.jpg');
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-tab-1x.jpg');
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-tab-2x.jpg');
+  }
+}
+
+
+@media screen and (min-width: 1158px) {
+  .hero-section {
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-desk-1x.jpg');
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+  .hero-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/hero-desk-2x.jpg');
+  }
+}
